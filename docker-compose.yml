@@ -11,9 +11,9 @@ services:
       - /var/lib/postgres_data:/var/lib/postgresql/data
 
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: postgres
+      POSTGRES_USER: billingapp
+      POSTGRES_PASSWORD: qwerty
+      POSTGRES_DB: billingapp_db
   adminer:
     container_name: adminer
     image: adminer
